@@ -1,11 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    color: white;
-    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
@@ -13,22 +9,58 @@ body {
     color: white;
 }
 
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
+    color: white;
+    font-size: 24px;
+}
+
+.right-link {
+    display: flex;
+    gap: 18px;
+}
+
+.container-2 {
+    padding: 0 20px;
+}
+
+.section-1 {
+    height: 500px;
+}
+
+
 .section-2 {
     background-color: white;
     color: black;
+    height: 500px;
 }
 
 .section-3 {
     background-color: #E5E7EB;
     color: black;
+    height: 500px;
 }
 
 .section-4 {
     background-color: white;
     color: black;
+    height: 500px;
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
+    height: 50px;
 }
